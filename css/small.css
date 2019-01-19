@@ -1,0 +1,252 @@
+/* ------------------ Small ------------------ */
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Lora', 'Cabin', 'Alegreya', serif;
+    text-decoration: none;
+}
+html, body {
+    margin: 10px;
+    background-color: #F8F8FF;
+}
+/* ------------------- Body ------------------- */
+body {
+
+}
+/* ------------------ Header ------------------ */
+header {
+    margin: 1rem 1rem;
+    padding: 0;
+}
+header img {
+    width: 100%;
+    min-width: 75px;
+    max-width: 200px;
+    border-radius: 100%;
+}
+header h2 {
+    margin: 0;
+    padding: 0;
+}
+.heaGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 1rem;
+}
+/* ------------------- Nav ------------------- */
+nav {
+    background: linear-gradient(to bottom, #96c5f7 0%, #5b5f97 58%);
+    padding: 1%;
+    color: #353535;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: 1px solid #5b5f97;
+    font-size: 2rem;
+    color: #3b4198;
+    box-shadow: 4px 4px rgba(0,0,0,0.5);
+}
+nav ul {
+    margin:0 .5% 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul.hide {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    background: linear-gradient(to bottom, #96c5f7 0%, #5b5f97 58%);
+    margin: 2%;
+    padding: 0;
+    box-shadow: 4px 4px rgba(0,0,0,0.5);
+    border: 2px solid #5b5f97;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav ul li a {
+    display: block;
+    padding: .6rem;
+    width: 100%;
+    color: #FFFFF0;
+}
+nav ul li a.active {
+    background-color: rgba(0,0,0,0.4);
+    color: #2F9C95;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+/* ------------------- Main ------------------- */
+main {
+}
+.s2 {
+    grid-column: 1 / span 2;
+}
+iframe {
+    grid-column: 1 / span 2;
+    box-shadow: none;
+    border: 2px solid #000;
+    margin: 2% auto;
+    width: 100%;
+}
+img {
+    width: 100%;
+    max-width: 300px;
+}
+figcaption {
+    font-size: .7rem;
+}
+main section {
+    margin: 2%;
+    padding-left: 1%;
+    border: 2px solid #000;
+    box-shadow: 6px 6px rgba(150, 197, 247,0.9);
+}
+.botRight {
+    display: block;
+    grid-column: 2;
+    grid-row: 2;
+    border: none;
+    box-shadow: none;
+}
+video {
+    width: 40rem;
+    height: 40rem;
+    margin: 1% auto 1% auto;
+    grid-column: 1 / span 2;
+}
+/* ----------------- Slider ------------------ */
+#slider {
+    width: 500px;
+    height: 700px;
+    overflow: hidden;
+    margin: 2% auto 2% auto;
+    border: none;
+}
+#slider .slides {
+    display: block;
+    width: 3500px;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 500px;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+/* ------------------ table ------------------ */
+table {
+    border: 2px solid #353535;
+    margin:0 auto 2% auto;
+    width: 100%;
+    max-width: 40em;
+}
+tr, th {
+    border: 2px solid #353535;
+}
+/* ------------------- Form ------------------- */
+form {
+    text-align: center;
+}
+form fieldset {
+    margin: 2% auto;
+    display: block;
+    text-align: left;
+    width: 90%;
+    max-width: 30rem;
+    border: 2px solid #3c6e71;
+    border-radius: 20px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: #3c6e71;
+    margin: 0 1rem;
+    padding: 1rem 0.5rem;
+}
+form label {
+    display:block;
+    text-align: left;
+    padding-top: .5rem;
+}
+form label input, form select, form textarea {
+    display: block;
+    font-size: 1rem;
+    border: 2px solid #3c6e71;
+    border-radius: 10px;
+    padding: .5rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(204,204,204,0.6);
+}
+input.dropdwn {
+    -webkit-appearance: none;
+}
+form label.select {
+    display: inline-block;
+    text-align: left;
+    padding: .75rem 0;
+    width: 10rem;
+}
+form div.select {
+    display: block;
+    text-align: inherit;
+}
+form input.select {
+    display: inline-block;
+    text-align: left;
+    padding: .75rem 0;
+}
+form input.subBut {
+    border: none;
+    background-color: #3c6e71;
+    color: #F8F8FF;
+    border-radius: 1rem;
+    padding: .75rem 1rem;
+    margin: 0 0 1.5rem 3%;
+    width: 96%;
+    max-width: 20rem;
+}
+input[type="checkbox"] {
+    display: inline-block;
+    width: 5%;
+    transform: scale(1.25);
+}
+form label input:required {
+    border-left: red solid 6px;
+}
+form label input:required:valid {
+    border-left: green solid 6px;
+}
+/* ------------------- Form ------------------- */
+
+/* ------------------ Footer ------------------ */
+footer {
+    background: linear-gradient(to bottom, #a9fbd7 0%, #3c6e71 58%);
+    padding: 1rem;
+    clear: both;
+    text-align: center;
+}
+footer section {
+    color: #FFFFF0;
+}
+footer section a {
+    color: #FFFFF0;
+}
+/* ----------------- ClearFix ----------------- */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+

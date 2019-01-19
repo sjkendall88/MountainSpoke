@@ -1,0 +1,60 @@
+/* ------------------ Medium ------------------ */
+/* Medium CSS page 35rem is also 560 px when basefont is 16px 600px */
+@media only screen and (min-width: 37.5rem) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 1px;
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        width:100%;
+    }
+    nav button {
+        margin: 0;
+        display: none;
+    }
+    nav ul.hide{
+        display: grid;
+        grid-template-columns: 1fr 1.7fr 1fr 1fr 1fr;
+        grid-column-gap: 1px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    nav ul li {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        border: 2px solid #5b5f97;
+        font-size: 1rem;
+    }
+    nav ul li a {
+        padding: .5rem 8%;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    form {
+        grid-column: 1 / span 2;
+    }
+    .footGrid {
+        display: grid;
+        grid-template-columns: 8rem 10rem 8rem;
+        grid-template-rows: 1.5rem 1.5rem;
+        align-content: center;
+    }
+    footer section {
+        text-align: center;
+    }
+    footer.grid {
+        margin-top: 1%;
+        padding: 1rem;
+        align-content: center;
+    }
+    section.footGrid {
+        grid-column: 2;
+    }
+}

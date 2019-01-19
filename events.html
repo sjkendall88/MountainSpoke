@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Mountain Spoke's Events</title>
+    <link href="css/normalization.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Cabin|Lora" rel="stylesheet">
+</head>
+
+<body>
+    <header class="heaGrid">
+        <img src="images/logo.jpg" alt="logo">
+        <section>
+            <h2>Mountain Spoke Bike Shop</h2>
+            <div>Cycling your way back to nature and a stress free life!</div>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul class="hide" id="smallButton">
+            <li id="home">
+                <a href="index.html">Home</a>
+            </li>
+            <li id="advent">
+                <a href="advent.html">Adventure Tours</a>
+            </li>
+            <li id="events">
+                <a href="events.html">Events</a>
+            </li>
+            <li id="sales">
+                <a href="sales.html">Sales</a>
+            </li>
+            <li id="service">
+                <a href="service.html">Service</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>Our next event!</h2>
+            <section>
+                <h3 class="s2">Our anual "Cycle the Continental Divide" event is just around the corner!</h3>
+                <h4 class="s2">August 18, 2018</h4>
+                <p>
+                    We are happy to continue our annual event to "Cycle the Continental Divide," this year is shaping up to be a great year with high attendance. We have a few variations on the route to accomodate our riders at every skill level. We want everyone to come out, enjoy themselves, and stay safe.
+                    <br><br> The registration fees are: $50 - for adults, $30 - for teenagers, $15 - for youth under 12 years of age, and $150 - for family registration (group limited to 8 members).
+                    <br><br> As we have mentioned above, we would to keep everyone safe! With your registration package you will receive: a 15% off coupon, that can be used towards your safety gear.
+                </p>
+            </section>
+            <h2>Upcoming Events</h2>
+            <section>
+                <ul class="s2">
+                    <li>Overnight Ride</li>
+                    <li>City Run</li>
+                    <li>Downhill course</li>
+                    <li>Ridge Traverse</li>
+                    <li>Halloween Haunt</li>
+                </ul>
+            </section>
+        </article>
+        <aside>
+            <form>
+                <h2>Event registration</h2>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>
+                            Name*
+                            <input type="text" name="name" pattern="[A-Za-z\s]{5,}" placeholder="Full Name" required></label>
+                    <label>
+                            Email*
+                            <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="example@domain.com" required></label>
+                    <label>
+                            Phone (optional)
+                            <input type="tel" name="phone" placeholder="1234567890"></label>
+                    <label>Date of Birth<input type="date" name="dateOfBirth"></label>
+                    <label>Home State<input type="text" name="state"></label>
+                    <label>Country<input type="text" name="country"></label>
+                    <label>Group Size<Select>
+                            <option>Select Option</option>
+                            <option value="one" >One</option>
+                            <option value="two">Two</option>
+                            <option value="three">Three</option>
+                            <option value="four">Four</option>
+                            <option value="five">Five</option>
+                            <option value="six">Six</option>
+                            <option value="seven">Seven</option>
+                            <option value="eight">Eight</option>
+                        </Select></label>
+                    <label>Comments/Special Accomodations<textarea rows="5"></textarea></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Event Information</legend>
+                    <label>Event name<select>
+                            <option>Select Option</option>
+                            <option value="contDivide">Continental Divide</option>
+                            <option value="overRide">Overnight Ride</option>
+                            <option value="cityRun">City Run</option>
+                            <option value="downHill">Downhill Course</option>
+                            <option value="Ridge">Ridge Traverse</option>
+                            <option value="hallhaunt">Halloween Haunt</option>
+                        </select>
+                    </label>
+                    <label>
+                    </label>
+                </fieldset>
+                <input class="subBut" type="submit" value="Register">
+            </form>
+        </aside>
+    </main>
+</body>
+<footer class="grid">
+    <section class="footGrid">
+        <section>&copy; 2018</section>
+        <section>All Rights Reserved</section>
+        <section>Mountain Spoke</section>
+        <section><span id="currentDate"></span> </section>
+        <section> <a href="resources.html">Resources</a></section>
+        <section><a href="contactUs.html">Contact</a></section>
+        <section><a href="overview.html">Over View</a></section>
+    </section>
+</footer>
+<script src="scripts/active.js"></script>
+<script src="scripts/currentDate.js"></script>
+<script src="scripts/javascript.js"></script>
+
+</html>

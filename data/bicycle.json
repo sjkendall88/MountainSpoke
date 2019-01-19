@@ -1,0 +1,53 @@
+{
+    "bicycle": [
+        {
+            "name": "Kodiak 2",
+            "type": "Trail",
+            "color": "Matte Blue",
+            "price": "$1399.00",
+            "description": "The Kodiak will never let you work weekends. It will taunt you with its desire to shred during every one of your waking moments. The Kodiak's trail geometry uses 27.5 inch tires and 120mm of suspension to encourage you to hit every jump on the trail, and on your first ride you will be cleaning lines you never thought were possible. The alloy frame is ready to take a dropper post and the tapered headtube and front and rear thru axles mean a solid and stable drift thru the corners.",
+            "image": "https://sjkendall88.github.io/MountainSpoke/images/sales/RA15_Kodiak-2_MatteBlue.jpg"
+        },
+        {
+            "name": "Tokul 2",
+            "type": "Trail",
+            "color": "Red",
+            "price": "$699.99",
+            "description": "Introducing the Tokul 2. An upgrade to the Tokul 1, the Tokul 2 offers a Shimano Alivio 1×9 drivetrain and SR Suntour XCR 32 120mm travel fork with preload and rebound. An all mountain bike, the Tokul 2 loves to play in rooty, rocky trails and takes you through lines you never thought possible. The Tokul 2 is designed with a light-weight alloy frame and SR Suntour XCR 32 120mm travel fork. The Weinmann U28 27.5 inch rims and Kenda Honey Badger 27.5×2.2inch tires level out even the toughest terrain. And the Tektro Auriga hydraulic disc brakes ensure consistent stopping power when flying into the turns. If you are after the perfect balance of quick handling and stability, look no further than the Tokul 2.",
+            "image": "https://sjkendall88.github.io/MountainSpoke/images/sales/tokul2.jpg"
+        },
+        {
+            "name": "Detour 2",
+            "type": "Comfort",
+            "color": "Black",
+            "price": "$499.99",
+            "description": "This bike prizes comfort with a focus on function, delivering the best of both worlds—a comfortable upright riding position plus narrower tires and larger rims for efficient, longer distance city riding and commuting. Made with a rack and fender-ready aluminum frame and fork, the Detour 2 is lightweight yet prepared to haul both you and your gear. The Shimano Rapid Fire Plus 8 Speed trigger shifters offer 24 gears without ever having to move your hands, and the spring-loaded comfort saddle, no slip pedals and comfort grips will keep all your contact points with the bike comfy and happy. Distance, durability, comfort, quality and great value all come together in the Detour 2.",
+            "image": "https://sjkendall88.github.io/MountainSpoke/images/sales/detour2.jpg"
+        },
+        {
+            "name": "Detour 1 Step Thru",
+            "type": "Comfort",
+            "color": "Light Green",
+            "price": "$399.99",
+            "description": "Prizing comfort with a focus on function, the Detour 1 Step Thru delivers the best of both worlds—offering an easy on/off step-thru frame with a comfortable, upright riding position made specifically for women, plus narrower tires and larger rims for efficient, longer distance city riding and commuting. Made with a rack and fender-ready high tensile steel frame and fork, the Detour 1 Step Thru is long lasting, durable, bump-absorbing and prepared to haul both you and all your stuff. The Shimano EZ Fire trigger shifters offer 21 gears, and the spring-loaded comfort saddle and comfort grips will keep all your touch points with the bike comfy and happy. Distance, durability, comfort, quality and great value all come together in the Detour 1. Raleigh Bicycles are designed around one simple idea: fun.",
+            "image": "https://sjkendall88.github.io/MountainSpoke/images/sales/detour1.jpg"
+        },
+        {
+            "name": "Trance Advanced 2",
+            "type": "Trail",
+            "color": "Grey",
+            "price": "$4080.00",
+            "description": "TACKLE BIG MOUNTAIN TRAILS OR SCREAMING ENDURO RUNS. THIS PROVEN LIGHTWEIGHT TRAIL MACHINE DOES IT ALL WITH SPEED. Whether you’re pinning on a number for a weekend enduro race or ripping laps on your favorite local trails, Trance Advanced delivers cutting edge performance so you can climb faster and descend with more control. Now featuring 140mm of rear suspension travel and 150mm up front, plus the superior all-rounder performance of 27.5 wheels, this progressive trail bike has been updated to perform even better on technical trails. The refined Maestro suspension system includes a new trunnion mount shock and Advanced Forged composite rocker arm, which makes the whole chassis lighter and stronger. And overall frame geometry has evolved with shorter chainstays and a longer toptube for confident handling on aggressive terrain.",
+            "image": "https://sjkendall88.github.io/MountainSpoke/images/sales/TranceAdvanced2.jpg"
+        },
+        {
+            "name": "ARX 2",
+            "type": "Recreation",
+            "color": "Black",
+            "price": "$500.00",
+            "description": "With its lightweight and durable ALUXX aluminum frame and mountain bike style flat handlebar, ARX gives you the confidence and control to ride just about anywhere. Quick and capable on smooth roads, gravel or dirt, it blends the adventurous capabilities of an off road bike with the efficiency and ease of a smooth rolling fitness or city bike. The frame is designed specifically for its 27.5 wheel size, striking the perfect balance between agility and control. Powerful disc brakes and a wide gear range help you tackle steep climbs and descents with control, and integrated mounts let you attach racks and fenders for commutes or longer treks.",
+            "image": "https://sjkendall88.github.io/MountainSpoke/images/sales/arx2.jpg"
+        }
+
+    ]
+}
